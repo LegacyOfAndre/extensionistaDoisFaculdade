@@ -10,13 +10,17 @@ body {
     height: 100vh;
     width: 100vw;
     
-    background-image:  url(/assets/imgs/combateafome.png);
+    background-image:  url(../imgs/combateafome.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: hidden;
 }
 
+
+body image{
+    
+}
 body .title-page{
     margin-top: 6px;
     text-align: center;
