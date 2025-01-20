@@ -154,6 +154,22 @@ body .container form .form-actions .form-action-bottom{
     align-items: center;
 }
 body .container form .form-actions .form-action-bottom a{
-    color: black;
     font-size: 19px;
+    color: #000;
 }
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: #ffffff;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #ffffff;  
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #ffffff;  
+ }
