@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    
+    background-image:  url(/assets/imgs/combateafome.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+body .title-page{
+    margin-top: 6px;
+    text-align: center;
+    font-size: 52px;
+
+    color: #ffffff;
+}
+
+body .container{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body .container form{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    border-radius: 3px;
+
+    height: 340px;
+    width: 360px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body .container form div{
+    height: 100%;
+    width: 100%;
+}
+
+body .container form .title-form-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 22px;
+}
+
+
+body .container form .content-form-login{
+    width: calc(100% - 22px);
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+body .container form .content-form-login label{
+    font-size: 20px;
+    margin: 0 0 3px 0;
+    color: #ffffff;
+}
+
+
+body .container form .content-form-login input{
+    height: 35px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 0 4px;
+    font-size: 17px;
+
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+body .container form .content-form-password {
+    width: calc(100% - 22px);
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+body .container form .content-form-password label{
+    font-size: 20px;
+    margin: 0 0 3px 0;
+    color: #ffffff;
+}
+
+body .container form .content-form-password input{
+    height: 35px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 0 4px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+body .container form .form-actions{
+   height: 100%;
+   width: calc(100% - 22px);
+   display: flex;
+   flex-direction: column;
+}
+
+body .container form .form-actions .form-action-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+body .container form .form-actions .form-action-top a{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+body .container form .form-actions .form-action-top .btn-login{
+    font-size: 22px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 3px;
+    padding: 2px 8px;
+}
+
+body .container form .form-actions .form-action-bottom{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body .container form .form-actions .form-action-bottom a{
+    color: black;
+    font-size: 19px;
+}
